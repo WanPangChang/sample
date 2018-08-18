@@ -1,4 +1,2 @@
 # sample
 
-testing
-hi
