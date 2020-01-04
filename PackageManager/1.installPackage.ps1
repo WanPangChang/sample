@@ -23,6 +23,7 @@ Register-PackageSource -Name chocolatey -Location http://chocolatey.org/api/v2/ 
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name VisualStudio2017Community
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name git
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name utorrent
+# Install-Package -Confirm:$False -ProviderName chocolatey -Name vmware-horizon-client
 
 $kPathChocoFolder = Get-ChildItem -Path C:\Chocolatey\lib -Filter chocolatey.* -Name -Directory | Out-String
 $kPathChocoFolder = ($kPathChocoFolder -split '\n')[0]
