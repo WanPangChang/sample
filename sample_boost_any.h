@@ -2,6 +2,7 @@
 #include <boost/any.hpp>
 using namespace std;
 
+
 class Interface 
 {
 public:
