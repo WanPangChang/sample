@@ -19,7 +19,7 @@ Register-PackageSource -Name chocolatey -Location http://chocolatey.org/api/v2/ 
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name adb
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name sqlite
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name python
-# Install-Package -Confirm:$False -ProviderName chocolatey -Name pychrome
+# Install-Package -Confirm:$False -ProviderName chocolatey -Name pycharm
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name VisualStudio2017Community
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name git
 # Install-Package -Confirm:$False -ProviderName chocolatey -Name utorrent
